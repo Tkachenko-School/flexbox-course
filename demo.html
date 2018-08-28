@@ -44,14 +44,13 @@
 
 				<section>
 					<h1>
-						Reveal.js
+						Flexbox module guide
 					</h1>
 					<h3>
-						The HTML Presentation Framework
+						Code project: recipe details page, created by using flexible items
 					</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a>
-							and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>
+						<small>Created by Arthur Tkachenko</small>
 					</p>
 				</section>
 
@@ -63,25 +62,31 @@
 
 
 				<section>
-					<h2>1 </h2>
+					<h4>
+						1
+					</h4>
 					<p>
+						<span class="fragment highlight-blue">blue</span>
 						Flexbox layout (Flexible box) aiming to provide a more efficient way to create layout, align and adjust space between items in container, even if size is unknown or dynamic.
 						This is why we use term "flex".
-
+<span class="fragment highlight-blue">blue</span>
 						Main idea is to give ability to alter width and height and order to it child elements.
 
 						It can fit to big part of process, relate to adjustment web pages for different devices and screens
 
-						Not: Flexbox is better to use for components, small sized layouts. While Grid system is better choice for large scale layouts.
+						Note: Flexbox is better to use for components, small sized layouts. While Grid system is better choice for large scale layouts.
 
 					</p>
 				</section>
 				<section>
-					<h2>2) basics</h2>
+					<h4>
+						2) basics
+					</h4>
 					<p>
 						Flexbox is a set of CSS rules. it envolve a lot of things. Flexbox have a hierarchy in CSS rules.
 						Some rules related to a parent components (Flex Container) and child components(Flex Items)
-
+<span class="fragment highlight-blue">blue</span>
+<span class="fragment highlight-blue">blue</span>
 						Regular CSS blocks use Block + Inline directions.
 
 						Flexbox is based on their own directions.
@@ -89,27 +94,30 @@
 				</section>
 
 				<section>
-					<h2>Flexbox Axis</h2>
+					<h4>
+						Flexbox Axis
+					</h4>
 					<p>
 						[image]
 
 						usually items go from MainStart to MainEnd
-
+<span class="fragment highlight-green">green</span>
 						Main Axis - primary line along which flex items are laid off. can be horizontal or vertical.
 
-
+<span class="fragment highlight-green">green</span>
 						MainStart, MainEnd - place where flex items are placed(inside container)
 
-
+<span class="fragment highlight-green">green</span>
 						main size - depends on what main dimension is. it can be flex item width or height.
 
-
+<span class="fragment highlight-green">green</span>
 						Cross-Axis. it's an axis perpendicular to the main aixs.
 						it direction depends on main axis directions
 
-
+<span class="fragment highlight-green">green</span>
 						Cross-Start, Cross-End - Flex line, filled with items and placed into container.
 
+<span class="fragment highlight-green">green</span>
 						cross-size - width or height of a flex item......
 
 
@@ -117,97 +125,110 @@
 				</section>
 
 				<section>
-					<h2>Properties for the parent</h2>
+					<h4>
+						Properties for the parent
+					</h4>
 					<p>
-
+<span class="fragment highlight-green">green</span>
 						display: defines a flex container. it can on/off the Flexbox magic.
 						without this rule -> wouldn't work
 
 						code| container {display: flex or inline-flex}
-
+<span class="fragment highlight-green">green</span>
 						flex-directions: defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
-
+<span class="fragment highlight-green">green</span>
 						row - left to right
+						<span class="fragment highlight-green">green</span>
 						row-reverse - right to left
+						<span class="fragment highlight-green">green</span>
 						column - same to row, but top to bottom
+						<span class="fragment highlight-green">green</span>
 						column-reverse - bottom to top
 
 					</p>
 				</section>
 				<section>
-					<h2>Hello There</h2>
+					<h4>
+						Hello There
+					</h4>
 					<p>
-
+<span class="fragment highlight-green">green</span>
 
 						flex-wrap: define if flex item, that cannot fit to the Inline
-
+<span class="fragment highlight-green">green</span>
 						nowrap - default section, all items should be one line
-
+<span class="fragment highlight-green">green</span>
 						wrap - flex items will fill onto multiple lines from top to bottom
-
+<span class="fragment highlight-green">green</span>
 						wrap-reverse - flex items, but from bottom to top
 
 					</p>
 				</section>
 				<section>
-					<h2>Hello There</h2>
+					<h4>
+						Hello There
+					</h4>
 					<p>
 
-
+<span class="fragment highlight-green">green</span>
 						flex-flow (direction or wrap)
 						it's a short version of 2 style rules, it's save time and equal \ default settings equal to
 						flex-div row & flex-wrap nowrap
 					</p>
 				</section>
 				<section>
-					<h2>justify-content</h2>
+					<h4>
+						justify-content
+					</h4>
 					<p>
 
 						more advanced version that we can have in default CSS rules. partially was done at Bootstrap(same logic, different realization by "hacks")
-
+<span class="fragment highlight-green">green</span>
 						flex-start: items are packed toward the start line
-
+<span class="fragment highlight-green">green</span>
 						flex-end: items are packed toward the end line
-
+<span class="fragment highlight-green">green</span>
 						center: items centered along the line
-
+<span class="fragment highlight-green">green</span>
 						space-between: items are evenly distributed in the line. first item is on the start line, last item on the end line.
-
+<span class="fragment highlight-green">green</span>
 						space-around: items are evenly distributed in the line with the equal space on both sides.
 						first item will have one unit of space against to parent container but next item will have 2 units of space between the next item, because that next item has it's own spacing
 
-
+<span class="fragment highlight-green">green</span>
 						space-evenly: items are distributed so that the spacing between any two items is equal.
 
 					</p>
 				</section>
 				<section>
-					<h2>align-items</h2>
+					<h4>
+						align-items
+					</h4>
 					<p>
 
 						align-items before flex module was this logic released, it can be done only by jQuery plugins. defines default behavior for how flex items are laid out along the cross-axis.
-
+<span class="fragment highlight-green">green</span>
 						flex-start: cross-start margin edge is placed on the cross-start line
-
+<span class="fragment highlight-green">green</span>
 						flex-end: cross-end margin edge of the items, placed on the cross-end line
-
+<span class="fragment highlight-green">green</span>
 						center: items centered in the cross-axis
-
+<span class="fragment highlight-green">green</span>
 						baseline: items are aligned such as their baseline
-
+<span class="fragment highlight-green">green</span>
 						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
 
 						align-content inside elements will fill the empty space by different logic (it's a very important rule)
 						applied to all elements inside. same to justify-content align individual items
-
+<span class="fragment highlight-green">green</span>
 						flex-start - lines packed to the start of the container
-
+<span class="fragment highlight-green">green</span>
 						flex-end: lines packed to the end of the container
-
+<span class="fragment highlight-green">green</span>
 						center: lines packed to the center of container
-
+<span class="fragment highlight-green">green</span>
 						space-between: lines evenly distributed, the first line is at start of container, last one - at the end
-
+<span class="fragment highlight-green">green</span>
 						space-around - lines evenly distributed with equal space around each line
 						stretch - (default setting) line stretch to take up remaining space.
 
@@ -218,12 +239,14 @@
 					</p>
 				</section>
 				<section>
-					<h2>Properties for the children (flex items)</h2>
+					<h4>
+						Properties for the children (flex items)
+					</h4>
 					<p>
-
+<span class="fragment highlight-green">green</span>
 						order: self-explanatory, before you can do it only with DOM manipulation via javascript or at server side.
 						default is 0.
-
+<span class="fragment highlight-green">green</span>
 						flex-grow: important rule, because now you can calm about amount of container inside. Important
 						for different screen sizes. Same a lot of times for Frontend Developers that use it.
 						define ability to grow(if necessary) works as proportion. Number of this rule dictates what amount of
@@ -234,23 +257,26 @@
 					</p>
 				</section>
 				<section>
-					<h2>Hello There</h2>
+					<h4>
+						Hello There
+					</h4>
 					<p>
 
 						Before you should add classes, that will handle that.
 						Only positive numbers.
-
+<span class="fragment highlight-green">green</span>
 						flex-shrink: define an ability for a item to shrink if it necessary. negative numbers invalid.
-
+<span class="fragment highlight-green">green</span>
 						flex-basis: define default size of an element before the remaining space is distributed.
 						can be a lenght or keyword.
+						<span class="fragment highlight-green">green</span>
 						~auto~ term means (looks only at width or height property)
-
+<span class="fragment highlight-green">green</span>
 						~content~ keyword means (size based on content) but content is not 100% supported well
 
 						if set 0 - extra space not counting
 						if set auto - extra space will be distributed based on 'flex-grow' value
-
+						<span class="fragment highlight-green">green</span>
 						flex: short version
 						first section is equal to flex-grow,
 						second equal to flex-shrink
@@ -264,9 +290,11 @@
 					</p>
 				</section>
 				<section>
-					<h2>Hello There</h2>
+					<h4>
+						Hello There
+					</h4>
 					<p>
-
+						<span class="fragment highlight-green">green</span>
 						align-self: sometimes you need to override position of one or few elements instead of setting
 						rules for each item. used in custom cases only.
 
@@ -274,19 +302,26 @@
 
 						float, clear and vertical align. wouldn't work on flex item.
 
+						<span class="fragment highlight-green">green</span>
 						auto:
 
+						<span class="fragment highlight-green">green</span>
 						flex-start:
 
+						<span class="fragment highlight-green">green</span>
 						flex-end:
 
+						<span class="fragment highlight-green">green</span>
 						center:
 
+						<span class="fragment highlight-green">green</span>
 						baseline:
 					</p>
 				</section>
 				<section>
-					<h2>Hello There</h2>
+					<h4>
+						Hello There
+					</h4>
 					<p>
 
 
@@ -299,6 +334,10 @@
 						(Fuh) Media queries is good, but it's not perfect.
 					</p>
 				</section>
+
+
+
+
 
 
 
@@ -401,7 +440,9 @@
 						</p>
 						<p class="fragment fade-in-then-out">fade-in-then-out</p>
 						<p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
-						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+						<p>Highlight <span class="fragment highlight-red">red</span>
+							 <span class="fragment highlight-blue">blue</span>
+							 <span class="fragment highlight-green">green</span></p>
 					</section>
 				</section>
 
