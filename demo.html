@@ -298,6 +298,7 @@
 					<h4>
 						Hello There
 					</h4>
+
 					<p>
 
 						<span class="fragment highlight-green">flex-flow </span>
@@ -313,23 +314,41 @@
 						justify-content
 					</h4>
 					<p>
+						more advanced version that we can have in default CSS rules.
+						partially was done at Bootstrap(same logic, different realization by "hacks")
 
-						more advanced version that we can have in default CSS rules. partially was done at Bootstrap(same logic, different realization by "hacks")
-						<span class="fragment highlight-green">flex-start</span>
+					</p>
+					<p class="fragment">
+						<span class="green">flex-start</span>
 						flex-start: items are packed toward the start line
-						<span class="fragment highlight-green">flex-end</span>
+					</p>
+					<p class="fragment">
+						<span class="green">flex-end</span>
 						flex-end: items are packed toward the end line
-						<span class="fragment highlight-green">center</span>
-						center: items centered along the line
-						<span class="fragment highlight-green">space-between</span>
-						space-between: items are evenly distributed in the line. first item is on the start line, last item on the end line.
-						<span class="fragment highlight-green">space-around:</span>
-						space-around: items are evenly distributed in the line with the equal space on both sides.
-						first item will have one unit of space against to parent container but next item will have 2 units of space between the next item, because that next item has it's own spacing
+					</p>
+					<p class="fragment">
 
-						<span class="fragment highlight-green">space-evenly</span>
+						<span class="green">center</span>
+						center: items centered along the line
+					</p>
+					<p class="fragment">
+						<span class="green">space-between</span>
+						space-between: items are evenly distributed in the line.
+						first item is on the start line, last item on the end line.
+					</p>
+					<p class="fragment">
+						<span class="green">space-around:</span>
+						space-around: items are evenly distributed in the line with the equal space on both sides.
+						first item will have one unit of space against to parent
+						container but next item will have 2 units of space between the next item,
+						because that next item has it's own spacing
+					</p>
+					<p class="fragment">
+						<span class="green">space-evenly</span>
 						space-evenly: items are distributed so that the spacing between any two items is equal.
 
+					</p>
+					<!-- <p>
 						<ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
@@ -337,7 +356,8 @@
 						  <li>Or here</li>
 						</ul>
 
-					</p>
+					</p> -->
+
 				</section>
 
 
@@ -346,29 +366,82 @@
 						align-items
 					</h4>
 					<p>
+						!!!!align-items before flex module was this logic released, it can be done only by jQuery plugins.
+						 defines default behavior for how flex items are laid out along the cross-axis.
+					</p>
+					<p class="fragment">
 
-						align-items before flex module was this logic released, it can be done only by jQuery plugins. defines default behavior for how flex items are laid out along the cross-axis.
-						<span class="fragment highlight-green">	flex-start:</span>
+
+						<span class="green">	flex-start:</span>
 						flex-start: cross-start margin edge is placed on the cross-start line
-						<span class="fragment highlight-green">flex-end:</span>
+
+					</p>
+					<p class="fragment">
+						<span class="green">flex-end:</span>
 						flex-end: cross-end margin edge of the items, placed on the cross-end line
-						<span class="fragment highlight-green">center:</span>
+
+					</p>
+					<p class="fragment">
+						<span class="green">center:</span>
 						center: items centered in the cross-axis
-						<span class="fragment highlight-green">baseline:</span>
+
+					</p>
+					<p class="fragment">
+						<span class="green">baseline:</span>
 						baseline: items are aligned such as their baseline
-						<span class="fragment highlight-green">stretch:</span>
+
+					</p>
+					<p class="fragment">
+
+						<span class="green">stretch:</span>
 						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p>
+					<p>
+
+
+					<!--
+
 
 						<ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
-						</ul>
+						</ul> -->
 
 
 						align-content inside elements will fill the empty space by different logic (it's a very important rule)
 						applied to all elements inside. same to justify-content align individual items
+
+
+						<p class="fragment">
+
+							<span class="green">stretch:</span>
+							stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+						</p><p class="fragment">
+
+							<span class="green">stretch:</span>
+							stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+						</p><p class="fragment">
+
+							<span class="green">stretch:</span>
+							stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+						</p><p class="fragment">
+
+							<span class="green">stretch:</span>
+							stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+						</p><p class="fragment">
+
+							<span class="green">stretch:</span>
+							stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+						</p>
+
 						<span class="fragment highlight-green">	flex-start</span>
 						flex-start - lines packed to the start of the container
 						<span class="fragment highlight-green">	flex-end:</span>
@@ -382,12 +455,12 @@
 						<span class="fragment highlight-green">stretch</span>
 						stretch - (default setting) line stretch to take up remaining space.
 
-						<ul>
+						<!-- <ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
-						</ul>
+						</ul> -->
 
 						OK, it was instructions related to flex container.
 
@@ -399,11 +472,23 @@
 				<section>
 					<h4>
 						Properties for the children (flex items)
-					</h4>
+					</h4><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p>
 					<p>
+
 						<span class="fragment highlight-green">order</span>
 						order: self-explanatory, before you can do it only with DOM manipulation via javascript or at server side.
 						default is 0.
+
 						<span class="fragment highlight-green">flex-grow:</span>
 						flex-grow: important rule, because now you can calm about amount of container inside. Important
 						for different screen sizes. Same a lot of times for Frontend Developers that use it.
@@ -412,6 +497,7 @@
 						it all items have flex-grow = 1, all remaining space will be distributed equally to all children.
 						if one item has value 2 -> remaining space would take up twice(increased 2x) as others
 
+
 					</p>
 				</section>
 
@@ -419,34 +505,64 @@
 				<section>
 					<h4>
 						Hello There
-					</h4>
+					</h4><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p>
 					<p>
 
 						Before you should add classes, that will handle that.
 						Only positive numbers.
 						<span class="fragment highlight-green">flex-shrink</span>
 						flex-shrink: define an ability for a item to shrink if it necessary. negative numbers invalid.
+
 						<span class="fragment highlight-green">flex-basis</span>
 						flex-basis: define default size of an element before the remaining space is distributed.
 						can be a lenght or keyword.
+
 						<span class="fragment highlight-green">auto</span>
 						~auto~ term means (looks only at width or height property)
+
 						<span class="fragment highlight-green">content</span>
 						~content~ keyword means (size based on content) but content is not 100% supported well
 
+
 						if set 0 - extra space not counting
 						if set auto - extra space will be distributed based on 'flex-grow' value
-						<ul>
+
+						<!-- <ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
-						</ul>
+						</ul> -->
 
 
 
 
+						<p class="fragment">
 
+							<span class="green">stretch:</span>
+							stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+						</p>
 
 						<span class="fragment highlight-green">flex</span>
 						flex: short version
@@ -467,7 +583,37 @@
 				<section>
 					<h4>
 						Hello There
-					</h4>
+					</h4><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p><p class="fragment">
+
+						<span class="green">stretch:</span>
+						stretch: it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+					</p>
 					<p>
 						[image]
 
@@ -494,12 +640,12 @@
 						<span class="fragment highlight-green">baseline</span>
 						baseline:
 
-						<ul>
+						<!-- <ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
-						</ul>
+						</ul> -->
 
 
 
@@ -525,6 +671,15 @@
 						(Fuh) Media queries is good, but it's not perfect.
 					</p>
 				</section>
+
+
+
+
+
+
+
+
+
 
 
 
