@@ -66,19 +66,28 @@
 						1
 					</h4>
 					<p>
-						<span class="fragment highlight-blue">blue</span>
-						Flexbox layout (Flexible box) aiming to provide a more efficient way to create layout, align and adjust space between items in container, even if size is unknown or dynamic.
-						This is why we use term
-						<span class="fragment highlight-blue">"flex"</span>.
-						Main idea is to give ability to alter width and height and order to it child elements.
 
-						It can fit to big part of process, relate to adjustment web pages for different devices and screens
+
+						Flexbox layout
+						<span class="blue">(Flexible box) </span>
+
+						aiming to provide a more efficient way to create layout, align and adjust space between
+						items in container, even if size is unknown or dynamic.
+						This is why we use term
+						<span class="blue">"flex"</span>.
+						Main idea is to give ability to alter width and height
+						and order to it child elements.
+
+						It can fit to big part of process, relate to adjustment
+						web pages for different devices and screens
 
 
 
 					</p>
 					<p>
-							Note: Flexbox is better to use for components, small sized layouts.
+						<span class="blue">Note:</span>
+
+							 Flexbox is better to use for components, small sized layouts.
 							While Grid system is better choice for large scale layouts.
 					</p>
 
@@ -91,10 +100,14 @@
 					<p>
 						Flexbox is a set of CSS rules. it envolve a lot of things. Flexbox have a hierarchy in CSS rules.
 						Some rules related to a parent components
-						<span class="fragment highlight-blue">(Flex Container)</span>
+						<span class="blue">
+							(Flex Container)
+						</span>
 
  						and child components
-						<span class="fragment highlight-blue">(Flex Items)</span>
+						<span class="blue">
+							(Flex Items)
+						</span>
 
 						Regular CSS blocks use Block + Inline directions.
 
@@ -107,34 +120,65 @@
 						Flexbox Axis
 					</h4>
 					<p>
-						[image]
+						<img data-src="img/flex-axes.png" style="width:80%;" />
 
+					</p>
+					<p>
 						usually items go from MainStart to MainEnd
-						<span class="fragment highlight-green">Main Axis </span>
-						- primary line along which flex items are laid off. can be horizontal or vertical.
+					</p>
+				</section>
 
-						<span class="fragment highlight-green">MainStart, MainEnd</span>
-						 - place where flex items are placed(inside container)
+				<section>
+					<h4>
+						Flexbox Axis
+					</h4>
+					<p>
 
-						 <span class="fragment highlight-green">main size</span>
-						 - depends on what main dimension is. it can be flex item width or height.
+						<!-- <img data-src="img/flex-axes.png" />
+						usually items go from MainStart to MainEnd -->
+						<p class="fragment">
+							<span class="green">Main Axis</span>
+								- primary line along which flex items are laid off. can be horizontal or vertical.
+						</p>
+						<p class="fragment">
+							<span class="green">MainStart, MainEnd</span>
+							 - place where flex items are placed(inside container)
+						</p>
 
-						 <span class="fragment highlight-green">Cross-Axis</span>
-						. it's an axis perpendicular to the main aixs.
-						it direction depends on main axis directions
+						<p class="fragment">
+							<span class="green">main size</span>
+							- depends on what main dimension is. it can be flex item width or height.
+						</p>
 
-						<span class="fragment highlight-green">Cross-Start, Cross-End</span>
-						 - Flex line, filled with items and placed into container.
+						<p class="fragment">
+							<span class="green">Cross-Axis</span>
+						 . it's an axis perpendicular to the main aixs.
+						 it direction depends on main axis directions
+						</p>
 
-						 <span class="fragment highlight-green">cross-size </span>
-						- width or height of a flex item......
 
-						<ul>
+
+							<p class="fragment">
+								<span class="green">Cross-Start, Cross-End</span>
+								 - Flex line, filled with items and placed into container.
+
+						 	</p>
+
+							<p class="fragment">
+								<span class="green">cross-size </span>
+	 						- width or height of a flex item......
+
+						 	</p>
+
+
+
+						<!-- <ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
-						</ul>
+						</ul> -->
+
 					</p>
 				</section>
 
@@ -147,30 +191,65 @@
 					<h4>
 						Properties for the parent
 					</h4>
-					<p>
-						<span class="fragment highlight-green">display</span>
+
+					<p class="fragment">
+						<span class="green">display</span>
 						display: defines a flex container. it can on/off the Flexbox magic.
 						without this rule -> wouldn't work
 
-						code| container {display: flex or inline-flex}<pre><code class="hljs" data-trim contenteditable>
+						code| container {display: flex or inline-flex}
+						<pre>
+							<code class="hljs" data-trim contenteditable>
 						container {display: flex or inline-flex}
-						</code></pre>
-						<span class="fragment highlight-green">	flex-directions</span>
+						</code>
+					</pre>
+
+					</p>
+
+					<p class="fragment">
+						<span class="green">	flex-directions</span>
 						flex-directions: defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
-						<span class="fragment highlight-green">row</span>
+
+
+					</p>
+
+					<p class="fragment">
+						<span class="green">	flex-directions</span>
+						flex-directions: defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
+
+
+					</p>
+
+					<p class="fragment">
+						<span class="green">row</span>
 						row - left to right
-						<span class="fragment highlight-green">row-reverse</span>
+
+					</p>
+					<p class="fragment">
+
+
+
+						<span class="green">row-reverse</span>
 						row-reverse - right to left
-						<span class="fragment highlight-green">column</span>
+
+					</p>
+					<p class="fragment">
+						<span class="green">column</span>
 						column - same to row, but top to bottom
-						<span class="fragment highlight-green">column-reverse</span>
+
+					</p>
+					<p class="fragment">
+						<span class="green">column-reverse</span>
 						column-reverse - bottom to top
-						<ul>
+					</p>
+
+					<p>
+						<!-- <ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
-						</ul>
+						</ul> -->
 					</p>
 				</section>
 
@@ -179,23 +258,39 @@
 					<h4>
 						Hello There
 					</h4>
-					<p>
-						<span class="fragment highlight-green">	flex-wrap</span>
+
+					<p class="fragment">
+						<span class="green">	flex-wrap</span>
 
 						flex-wrap: define if flex item, that cannot fit to the Inline
-						<span class="fragment highlight-green">nowrap</span>
+					</p>
+					<p class="fragment">
+
+
+						<span class="green">nowrap</span>
 						nowrap - default section, all items should be one line
-						<span class="fragment highlight-green">wrap</span>
+					</p>
+
+					<p class="fragment">
+						<span class="green">wrap</span>
 						wrap - flex items will fill onto multiple lines from top to bottom
-						<span class="fragment highlight-green">wrap-reverse</span>
+					</p>
+
+					<p class="fragment">
+						<span class="green">wrap-reverse</span>
 						wrap-reverse - flex items, but from bottom to top
+					</p>
+
+
+					<!-- <p>
 						<ul>
 						  <li>No order here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						  <li>Or here</li>
 						</ul>
-					</p>
+					</p> -->
+
 				</section>
 
 
@@ -516,7 +611,9 @@
 						<h2>Fragments</h2>
 						<p>Hit the next arrow...</p>
 						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+						<p><span class="fragment">... a</span>
+							 <span class="fragment">fragmented</span>
+							  <span class="fragment">slide.</span></p>
 
 						<aside class="notes">
 							This slide has fragments which are also stepped through in the notes window.

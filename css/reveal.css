@@ -173,6 +173,13 @@ body {
 .reveal .slides section .fragment.highlight-current-blue.current-fragment {
   color: #1b91ff; }
 
+
+.reveal .green {
+  color:green;
+}
+.reveal .blue {
+  color:blue;
+}
 /*********************************************
  * DEFAULT ELEMENT STYLES
  *********************************************/
