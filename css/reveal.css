@@ -180,6 +180,9 @@ body {
 .reveal .blue {
   color:blue;
 }
+.align {
+  text-align: left;
+}
 /*********************************************
  * DEFAULT ELEMENT STYLES
  *********************************************/
