@@ -27,6 +27,7 @@ body > header {
 
 
 
+
 h1 {
     display: block;
     width: 100%;
@@ -125,22 +126,4 @@ section ol {
 
 section ul {
     list-style-type: square;
-}
-
-
-
-
-footer {
-    width: 100%;
-    display: block;
-    background-color: #333333;
-    position: relative;
-    top: 100px;
-    padding: 30px;
-}
-
-footer p {
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.7);
-
 }
