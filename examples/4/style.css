@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+}
+
+we tell all items to be 100% width
+.wrapper > * {
+  flex: 1 100%;
+}
+
+
+- wrapper
+  -- header
+  -- article
+  -- aside 1
+  -- aside 2
+  -- footer
+
+/* we rely on source order for mobile-first approach
+in this case:
+1. header
+2. article
+3. aside 1
+4. aside 2
+5. footer  */
+
+/* Medium screens */

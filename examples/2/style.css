@@ -1,10 +1,13 @@
-.parent {
+.flex-container {
   display: flex;
-  height: 300px;
+  justify-content: space-around;
 }
-
-.child {
+.flex-container > div {
+  border: 1px solid black;
+  padding: 15px;
+}
+/* .child {
   width: 100px;
   height: 100px;
   margin: auto;
-}
+} */
