@@ -30,3 +30,41 @@ p This defines the default behaviour for how flex items are laid out along the c
 img(src="images/flex-align-content.png")
 <img data-src="img/flex-align-content.png" style="width:80%;" />
 p This aligns a flex container's lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
+
+
+
+--------------
+Order
+
+
+img(src="images/flex-order.png")
+<img data-src="img/flex-order.png" style="width:80%;" />
+p By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.
+
+Flex grow
+
+
+img(src="images/flex-grow.png")
+<img data-src="img/flex-grow.png" style="width:80%;" />
+ This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.
+
+Flex shrink
+
+
+img(src="images/flex-grow.png")
+<img data-src="img/flex-grow.png" style="width:80%;" />
+ This defines the ability for a flex item to shrink if necessary.
+
+Flex basis
+
+
+img(src="images/flex-grow.png")
+<img data-src="img/flex-grow.png" style="width:80%;" />
+ This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword.
+
+Align self
+
+
+img(src="images/flex-align-self.png")
+<img data-src="img/flex-align-self.png" style="width:80%;" />
+ This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
