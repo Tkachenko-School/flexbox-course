@@ -58,3 +58,4 @@ Align self
 
 <img data-src="img/flex-align-self.png" style="width:80%;" />
  This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
+----
