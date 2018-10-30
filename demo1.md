@@ -162,21 +162,20 @@
 						Flexbox Axis
 					</h4> -->
 					<p>
-						<p class=" align">
+						<p class="fragment align">
 							<span class="green">Main Axis</span>
 								- primary line along which flex items are laid off. can be horizontal or vertical.
 						</p>
-						<hr />
-						<p class=" align">
+						<p class="fragment align">
 							<span class="green">Main Start, Main End</span>
 							 - place where flex items are placed(inside container)
 						</p>
-						<hr />
-						<p class=" align">
+
+						<p class="fragment align">
 							<span class="green">Main Size</span>
 							- depends on what main dimension is. it can be flex item width or height.
 						</p>
-						<hr />
+
 
 						<!-- <ul>
 						  <li>No order here</li>
@@ -187,63 +186,27 @@
 
 					</p>
 				</section>
-				<!-- <section>
-						<p class="fragment align">
-							<span class="green">Main Axis</span>
-								- primary line along which flex items are laid off. can be horizontal or vertical.
-						</p>
-						<p class="fragment align">
-							<span class="green">Main Start, Main End</span>
-							 - place where flex items are placed(inside container)
-						</p>
-
-						<p class="fragment align">
-							<span class="green">Main Size</span>
-							- depends on what main dimension is. it can be flex item width or height.
-						</p>
-				</section> -->
 
 				<section>
 
-					<p class=" align">
+					<p class="fragment align">
 						<span class="green">Cross-Axis</span>
 						It's an axis perpendicular to the main aixs.
 						it direction depends on main axis directions
 					</p>
-					<hr />
-					<p class=" align">
+					<p class="fragment align">
 						<span class="green">Cross-Start, Cross-End</span>
 						- Flex line, filled with items and placed into container.
 
 					</p>
-<hr />
-					<p class=" align">
+
+					<p class="fragment align">
 						<span class="green">cross-size </span>
 						- width or height of a flex item......
 
 					</p>
-<hr />
+
 				</section>
-				<!-- <section>
-
-					<p class="fragment align">
-						<span class="green">Cross-Axis</span>
-						It's an axis perpendicular to the main aixs.
-						it direction depends on main axis directions
-					</p>
-					<p class="fragment align">
-						<span class="green">Cross-Start, Cross-End</span>
-						- Flex line, filled with items and placed into container.
-
-					</p>
-
-					<p class="fragment align">
-						<span class="green">cross-size </span>
-						- width or height of a flex item......
-
-					</p>
-
-				</section> -->
 
 				<!-- <pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre> -->
 
@@ -258,11 +221,10 @@
 					<ul>
 						<li>display</li>
 						<li>flex-directions</li>
-						<li>flex-wrap</li>
-						<li>flex-flow</li>
-						<li>justify-content</li>
-						<li>align-items</li>
-						<li>align-content</li>
+						<li>row</li>
+						<li>row-reverse</li>
+						<li>column</li>
+						<li>column-reverse</li>
 					</ul>
 
 				</section>
@@ -290,10 +252,8 @@
 						</p>
 
 					</section>
-
-					<!-- #9 -->
-					<!-- <section>
-						<p >
+					<section>
+						<p class=" align">
 							<span class="green">flex-directions:</span>
 							 defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
 						</p>
@@ -301,52 +261,9 @@
 							<span class="green">row:</span>
 							display items left to right
 						</p>
-					</section> -->
-					<section>
-						<h4>flex-directions</h4>
-						<p class="align">
-							<!-- <span class="green"></span> -->
-							 defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
-						</p>
-						<p class="align">
-							<span class="green">row:</span>
-							display items left to right
-						</p>
 					</section>
 
-					<section>
-						<p class=" align">
-							<span class="green">row-reverse:</span>
-							display items right to left
-						</p>
 
-						<p class=" align">
-							<span class="green">column:</span>
-							display items same to row, but top to bottom
-						</p>
-
-						<p class=" align">
-							<span class="green">column-reverse:</span>
-							display items bottom to top
-						</p>
-					</section>
-					<!--
-										<section>
-											<p class="fragment align">
-												<span class="green">row-reverse:</span>
-												display items right to left
-											</p>
-
-											<p class="fragment align">
-												<span class="green">column:</span>
-												display items same to row, but top to bottom
-											</p>
-
-											<p class="fragment align">
-												<span class="green">column-reverse:</span>
-												display items bottom to top
-											</p>
-										</section> -->
 
 					<section>
 						flex example
@@ -356,7 +273,6 @@
 						</a>
 					</p>
 					</section>
-
 					<section>
 						flex-direction
 						<p>
@@ -376,18 +292,37 @@
 
 
 
-
-
 				<section>
+
+					<p class="fragment align">
+						<span class="green">row-reverse:</span>
+						display items right to left
+					</p>
+
+					<p class="fragment">
+						<span class="green">column:</span>
+						display items same to row, but top to bottom
+					</p>
+
+					<p class="fragment align">
+						<span class="green">column-reverse:</span>
+						display items bottom to top
+					</p>
+
+
+				</section>
+
+
+
 				<section>
 					<h4>
-						Flex wrap
+						Hello There
 					</h4>
 
 
 						<p>
 							<ul>
-							  <!-- <li></li> -->
+							  <li>flex-wrap</li>
 							  <li>nowrap</li>
 							  <li>wrap</li>
 							  <li>wrap-reverse</li>
@@ -397,66 +332,33 @@
 
 
 				</section>
+
+
+
+
 				<section>
-					<h4>Flex Wrap</h4>
-					<p class="align">
-						<!-- <span class="green">flex-wrap:</span> -->
+
+					<p class="fragment align">
+						<span class="green">flex-wrap:</span>
 						define if flex item, that cannot fit to the Inline
 					</p>
 
-					<p class="align">
+					<p class="fragment align">
 						<span class="green">nowrap:</span>
 						 default section, all items should be one line
 					</p>
 
-					<p class="align">
+					<p class="fragment align">
 						<span class="green">wrap:</span>
 						flex items will fill onto multiple lines from top to bottom
 					</p>
 
-					<p class="align">
+					<p class="fragment align">
 						<span class="green">wrap-reverse:</span>
 						 flex items, but from bottom to top
 					</p>
 
 				</section>
-				<!--
-								<section>
-									<h4>Flex Wrap</h4>
-									<p class="fragment align">
-
-										define if flex item, that cannot fit to the Inline
-									</p>
-
-									<p class="fragment align">
-										<span class="green">nowrap:</span>
-										 default section, all items should be one line
-									</p>
-
-									<p class="fragment align">
-										<span class="green">wrap:</span>
-										flex items will fill onto multiple lines from top to bottom
-									</p>
-
-									<p class="fragment align">
-										<span class="green">wrap-reverse:</span>
-										 flex items, but from bottom to top
-									</p>
-
-								</section> -->
-
-								<section>
-									flex-wrap
-									<p>
-										<a href="https://codepen.io/ArtTka/pen/XPBdpN">
-											CodePen link
-									</a>
-								</p>
-								</section>
-
-
-
-			</section>
 
 
 
@@ -469,37 +371,34 @@
 
 
 
-
-			<section>
-				<h4>
-					flex-flow
-				</h4>
-
-				<p class="fragment align">
-					<!-- <span class="green">flex-flow:</span> -->
-					(direction or wrap)
-					it's a short version of 2 style rules, it's save time and equal \ default settings equal to
-					<span class="green">`flex-div` row</span> & <span class="green">`flex-wrap` nowrap</span>
+				<section>
+					flex-wrap
+					<p>
+						<a href="https://codepen.io/ArtTka/pen/XPBdpN">
+							CodePen link
+					</a>
 				</p>
-			</section>
-			<!-- <section>
-				<h4>
-					flex-flow
-				</h4>
-
-				<p class="fragment align">
-					<span class="green">flex-flow:</span>
-					(direction or wrap)
-					it's a short version of 2 style rules, it's save time and equal \ default settings equal to
-					`flex-div` row & `flex-wrap` nowrap
-				</p>
-			</section> -->
+				</section>
 
 
+				<section>
+					<h4>
+						Hello There
+					</h4>
+
+					<p class="fragment align">
+						<span class="green">flex-flow:</span>
+						(direction or wrap)
+						it's a short version of 2 style rules, it's save time and equal \ default settings equal to
+						`flex-div` row & `flex-wrap` nowrap
+					</p>
+				</section>
 
 
 
-<section>
+
+
+
 				<section>
 					<h4>
 						justify-content
@@ -522,6 +421,7 @@
 
 					</p>
 				</section>
+
 				<section>
 					justify-content example
 					<p>
@@ -531,90 +431,45 @@
 
 				<section>
 
-					<p class=" align">
+					<p class="fragment align">
 						<span class="green">flex-start:</span>
 						items are packed toward the start line
 					</p>
 
-					<p class=" align">
+					<p class="fragment align">
 						<span class="green">flex-end:</span>
 						items are packed toward the end line
 					</p>
 
-					<p class=" align">
+					<p class="fragment align">
 						<span class="green">center:</span>
 						items centered along the line
 					</p>
 				</section>
 
-				<!-- <section>
+				<section>
 
 					<p class="fragment align">
-						<span class="green">flex-start:</span>
-						items are packed toward the start line
+						<span class="green">space-between:</span>
+						items are evenly distributed in the line.
+						first item is on the start line, last item on the end line.
 					</p>
 
 					<p class="fragment align">
-						<span class="green">flex-end:</span>
-						items are packed toward the end line
+						<span class="green">space-around:</span>
+						items are evenly distributed in the line with the equal space on both sides.
+						first item will have one unit of space against to parent
+						container but next item will have 2 units of space between the next item,
+						because that next item has it's own spacing
 					</p>
 
 					<p class="fragment align">
-						<span class="green">center:</span>
-						items centered along the line
+						<span class="green">space-evenly:</span>
+						items are distributed so that the spacing between any two items is equal.
+
 					</p>
-				</section> -->
 
-								<section>
-
-									<p class=" align">
-										<span class="green">space-between:</span>
-										items are evenly distributed in the line.
-										first item is on the start line, last item on the end line.
-									</p>
-
-									<p class=" align">
-										<span class="green">space-around:</span>
-										items are evenly distributed in the line with the equal space on both sides.
-										first item will have one unit of space against to parent
-										container but next item will have 2 units of space between the next item,
-										because that next item has it's own spacing
-									</p>
-
-									<p class=" align">
-										<span class="green">space-evenly:</span>
-										items are distributed so that the spacing between any two items is equal.
-
-									</p>
-
-								</section>
-								<!-- <section>
-
-									<p class="fragment align">
-										<span class="green">space-between:</span>
-										items are evenly distributed in the line.
-										first item is on the start line, last item on the end line.
-									</p>
-
-									<p class="fragment align">
-										<span class="green">space-around:</span>
-										items are evenly distributed in the line with the equal space on both sides.
-										first item will have one unit of space against to parent
-										container but next item will have 2 units of space between the next item,
-										because that next item has it's own spacing
-									</p>
-
-									<p class="fragment align">
-										<span class="green">space-evenly:</span>
-										items are distributed so that the spacing between any two items is equal.
-
-									</p>
-
-								</section> -->
-
-
-</section>
-
+				</section>
 
 				<section>
 					<h4>
@@ -757,7 +612,6 @@
 					</p>
 				</section>
 
-<section>
 				<section>
 					<h4>
 						Properties for the children (flex items)
@@ -774,31 +628,23 @@
 
 						<span class="green">flex-grow:</span>
 						important rule, because now you can calm about amount of container inside. Important
-								for different screen sizes.
+								for different screen sizes. Same a lot of times for Frontend Developers that use it.
+								define ability to grow(if necessary) works as proportion. Number of this rule dictates what amount of
+								the available space inside the flex container the item should take up.
+								it all items have flex-grow = 1, all remaining space will be distributed equally to all children.
+								if one item has value 2 -> remaining space would take up twice(increased 2x) as others
 
 					</p>
 
 				</section>
 				<section>
-				<p>Flex grow 	Save a lot of times for Frontend Developers that use it.
-					define ability to grow(if necessary) works as proportion. Number of this rule dictates what amount of
-					the available space inside the flex container the item should take up.
-					it all items have flex-grow = 1, all remaining space will be distributed equally to all children.
-					if one item has value 2 -> remaining space would take up twice(increased 2x) as others
-</p>
-			</section>
-			<section>
-				order example
-				<p>
-					<a href="https://codepen.io/ArtTka/pen/ZMjWpW">
-						CodePen link
-				</a>
-			</p>
-			</section>
-
-
-			</section>
-
+					order example
+					<p>
+						<a href="https://codepen.io/ArtTka/pen/ZMjWpW">
+							CodePen link
+					</a>
+				</p>
+				</section>
 
 				<section>
 					<h4>
@@ -829,41 +675,45 @@
 						keyword means (size based on content) but content is not 100% supported well
 					</p>
 
+					<p>
+
+						Before you should add classes, that will handle that.
+						Only positive numbers.
+
+
+
+						if set 0 - extra space not counting
+						if set auto - extra space will be distributed based on 'flex-grow' value
+
+						<!-- <ul>
+						  <li>No order here</li>
+						  <li>Or here</li>
+						  <li>Or here</li>
+						  <li>Or here</li>
+						</ul> -->
+
+
+
+
+						<p class="fragment align">
+
+							<span class="green">flex:</span>
+							this css rule is a short version
+
+							first section is equal to flex-grow,
+							second equal to flex-shrink
+							third equal to flex-basis
+
+							second, third is optional.
+							default setting is `0 auto 1;`
+
+							better to use this property. because it make code clear.
+						</p>
 
 
 
 					</p>
 				</section>
-				<section>
-
-										<p>
-
-											Before you should add classes, that will handle that.
-											Only positive numbers.
-
-
-
-											if set 0 - extra space not counting
-											if set auto - extra space will be distributed based on 'flex-grow' value
-
-
-
-
-											<p class="fragment align">
-
-												<span class="green">flex:</span>
-												this css rule is a short version
-
-												first section is equal to flex-grow,
-												second equal to flex-shrink
-												third equal to flex-basis
-
-												second, third is optional.
-												default setting is `0 auto 1;`
-
-												better to use this property. because it make code clear.
-											</p>
-										</section>
 
 				<section>
 					flex-grow example
@@ -891,14 +741,14 @@
 												<img data-src="img/flex-axes.png" style="width:80%;" />
 					</p>
 				</section> -->
-<section>
+
 				<section>
 					<h4>
 						align-self rule
 					</h4>
 
 
-					<p class=" align">
+					<p class="fragment align">
 
 						<span class="green">align-self:</span>
 						sometimes you need to override position of one or few elements instead of setting
@@ -914,7 +764,7 @@
 						<li>auto</li>
 						<li>flex-start</li>
 						<li>flex-end</li>
-						<li>center</li>
+						<li>centerOr here</li>
 						<li>baseline</li>
 					</ul>
 
@@ -924,12 +774,13 @@
 
 				<section>
 
-						<p class=" align">
-							it's a same rules, that we have at <span class="green">align-items</span>, so instead of covering each of them ->
-							we'll take a look at example
-						</p>
+						<p class="fragment align">
 
-						<!-- <p class="fragment align">
+
+							<span class="green">auto:</span>
+							xxx
+						</p>
+						<p class="fragment align">
 
 
 								<span class="green">flex-start:</span>
@@ -940,11 +791,11 @@
 
 								<span class="green">flex-end:</span>
 								xxx
-						</p> -->
+						</p>
 
 				</section>
 
-				<!-- <section>
+				<section>
 					<p class="fragment align">
 
 						<span class="green">center:</span>
@@ -957,7 +808,7 @@
 						<span class="green">baseline:</span>
 						xxx
 					</p>
-				</section> -->
+				</section>
 
 
 				<section>
@@ -966,7 +817,7 @@
 						<a href="https://codepen.io/ArtTka/pen/dqjMOd">CodePen Link</a>
 					</p>
 				</section>
-</section>
+
 
 <!-- <pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre> -->
 
@@ -990,7 +841,6 @@
 
 
 
-
 				<section>
 					  <h2>Flex example 1</h2>
 						<a href="https://codepen.io/ArtTka/pen/dqKEwQ">
@@ -998,14 +848,12 @@
 						</a>
 				</section>
 
-
 				<section>
 					  <h2>Flex example 2</h2>
 						<a href="https://codepen.io/ArtTka/pen/xaJVqL">
 							CodePen Link
 						</a>
 				</section>
-
 
 
 
