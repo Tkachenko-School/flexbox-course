@@ -47,7 +47,7 @@
 						Flexbox module guide
 					</h4>
 					<h4>
-						Code project: recipe details page, created by using flexible items
+						Code project: Create page with list of recipes by using flexboxes
 					</h4>
 					<p>
 						<small>Created by Arthur Tkachenko</small>
@@ -245,7 +245,12 @@
 
 				</section> -->
 
-				<!-- <pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre> -->
+
+
+				<section>
+				<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+			</section>
+				<!--  -->
 
 
 
@@ -277,15 +282,15 @@
 						<p>
 							<span class="green">display:</span>
 							defines a flex container. it can on/off the Flexbox magic.
-							!!!!!!!!!without this rule -> wouldn't work
+							without this rule -> flexboxes wouldn't work
 
-							<pre>
+							<!-- <pre>
 								<code class="hljs" data-trim contenteditable>
 									container {
 									  display: flex; // or inline-flex
 									}
 							</code>
-							</pre>
+							</pre> -->
 
 						</p>
 
@@ -306,7 +311,7 @@
 						<h4>flex-directions</h4>
 						<p class="align">
 							<!-- <span class="green"></span> -->
-							 defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
+							 defines how inside items will appeared. Good and easy for manipulation. it'll manipulate main-axis.
 						</p>
 						<p class="align">
 							<span class="green">row:</span>
@@ -330,23 +335,17 @@
 							display items bottom to top
 						</p>
 					</section>
-					<!--
+
 										<section>
-											<p class="fragment align">
-												<span class="green">row-reverse:</span>
-												display items right to left
-											</p>
 
-											<p class="fragment align">
-												<span class="green">column:</span>
-												display items same to row, but top to bottom
-											</p>
+																		 <pre><code class="hljs">&lt;section data-background="flex-direction-row.png"&gt;</code></pre>
 
-											<p class="fragment align">
-												<span class="green">column-reverse:</span>
-												display items bottom to top
-											</p>
-										</section> -->
+										</section>
+										<section>
+
+																		 <pre><code class="hljs">&lt;section data-background="flex-direction-column.png"&gt;</code></pre>
+
+										</section>
 
 					<section>
 						flex example
@@ -398,7 +397,7 @@
 
 				</section>
 				<section>
-					<h4>Flex Wrap</h4>
+					<h4>flex-wrap</h4>
 					<p class="align">
 						<!-- <span class="green">flex-wrap:</span> -->
 						define if flex item, that cannot fit to the Inline
@@ -444,9 +443,13 @@
 									</p>
 
 								</section> -->
-
 								<section>
-									flex-wrap
+
+										<pre><code class="hljs">&lt;section data-background="flex-wrap.png"&gt;</code></pre>
+
+								</section>
+								<section>
+									flex-wrap example
 									<p>
 										<a href="https://codepen.io/ArtTka/pen/XPBdpN">
 											CodePen link
@@ -479,7 +482,7 @@
 					<!-- <span class="green">flex-flow:</span> -->
 					(direction or wrap)
 					it's a short version of 2 style rules, it's save time and equal \ default settings equal to
-					<span class="green">`flex-div` row</span> & <span class="green">`flex-wrap` nowrap</span>
+					<span class="green">`flex-direction` row</span> & <span class="green">`flex-wrap` nowrap</span>
 				</p>
 			</section>
 			<!-- <section>
@@ -522,12 +525,9 @@
 
 					</p>
 				</section>
-				<section>
-					justify-content example
-					<p>
-						<a href="https://codepen.io/ArtTka/pen/aajNBW">CodePen Link</a>
-					</p>
-				</section>
+
+
+
 
 				<section>
 
@@ -588,32 +588,22 @@
 									</p>
 
 								</section>
-								<!-- <section>
+								<section>
 
-									<p class="fragment align">
-										<span class="green">space-between:</span>
-										items are evenly distributed in the line.
-										first item is on the start line, last item on the end line.
+							 <pre><code class="hljs">&lt;section data-background="justify.png"&gt;</code></pre>
+
+								</section>
+
+								<section>
+									justify-content example
+									<p>
+										<a href="https://codepen.io/ArtTka/pen/aajNBW">CodePen Link</a>
 									</p>
-
-									<p class="fragment align">
-										<span class="green">space-around:</span>
-										items are evenly distributed in the line with the equal space on both sides.
-										first item will have one unit of space against to parent
-										container but next item will have 2 units of space between the next item,
-										because that next item has it's own spacing
-									</p>
-
-									<p class="fragment align">
-										<span class="green">space-evenly:</span>
-										items are distributed so that the spacing between any two items is equal.
-
-									</p>
-
-								</section> -->
-
-
+								</section>
 </section>
+
+
+
 
 
 				<section>
@@ -780,7 +770,7 @@
 
 				</section>
 				<section>
-				<p>Flex grow 	Save a lot of times for Frontend Developers that use it.
+				<p class="align">Flex grow 	Save a lot of time for Frontend Developers that use it.
 					define ability to grow(if necessary) works as proportion. Number of this rule dictates what amount of
 					the available space inside the flex container the item should take up.
 					it all items have flex-grow = 1, all remaining space will be distributed equally to all children.
@@ -882,15 +872,19 @@
 					</a>
 				</p>
 				</section>
-				<!-- <section>
-					<h4>
-						Hello There
-					</h4>
+
+				 <section>
+
 					<p>
-						[image]
+
 												<img data-src="img/flex-axes.png" style="width:80%;" />
 					</p>
-				</section> -->
+				</section>
+
+
+
+
+
 <section>
 				<section>
 					<h4>
@@ -925,7 +919,8 @@
 				<section>
 
 						<p class=" align">
-							it's a same rules, that we have at <span class="green">align-items</span>, so instead of covering each of them ->
+							it's a same rules, that we have at <span class="green">align-items</span>,
+							 so instead of covering each of them ->
 							we'll take a look at example
 						</p>
 
@@ -968,9 +963,14 @@
 				</section>
 </section>
 
-<!-- <pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre> -->
 
-				<section>
+<section>
+ <pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+</section>
+
+<!-- -->
+
+				<!-- <section>
 					<h4>
 						Hello There
 					</h4>
@@ -986,7 +986,7 @@
 						All items will have evenly on horizontal Axis so when you resize browser, all will looks fine and without media queries
 						(Fuh) Media queries is good, but it's not perfect.
 					</p>
-				</section>
+				</section> -->
 
 
 
@@ -1057,6 +1057,18 @@
 		      </section>
 
 		    </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
