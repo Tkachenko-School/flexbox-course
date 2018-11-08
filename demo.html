@@ -691,77 +691,83 @@
 					</p>
 				</section>
 
-
 				<section>
-					<h4>
-					align-content
-				</h4>
-					<p>
-						give the ability to flexbox items to fill the empty space by different logic
-
-											applied to all elements inside.
-											same to justify-content align individual items
-(it's a very important rule)
-					</p>
-
-					<p>
-						<ul>
-							<li>flex-start</li>
-							<li>flex-end</li>
-							<li>center</li>
-							<li>space-between</li>
-							<li>space-around</li>
-							<li>stretch</li>
-
-						</ul>
-					</p>
-				</section>
-
-
 
 					<section>
-						<p class=" align">
-							<span class="green">flex-start:</span>
-							lines packed to the start of the container
+						<h4>
+						align-content
+					</h4>
+						<p class="align">
+							Gives the ability to flexbox items to fill the empty space by different logic
+
+							This rule applied to all elements inside.
+							Similar to justify-content align individual items
+	(it's a very important rule)
 						</p>
 
-						<p class=" align">
-							<span class="green">flex-end:</span>
-							lines packed to the end of the container
+						<p>
+							<ul>
+								<li>flex-start</li>
+								<li>flex-end</li>
+								<li>center</li>
+								<li>space-between</li>
+								<li>space-around</li>
+								<li>stretch</li>
 
-						</p>
-						<p class=" align">
-							<span class="green">center:</span>
-							lines packed to the center of container
-
+							</ul>
 						</p>
 					</section>
 
+
+
+						<section>
+							<p class=" align">
+								<span class="green">flex-start:</span>
+								lines packed to the start of the container
+							</p>
+
+							<p class=" align">
+								<span class="green">flex-end:</span>
+								lines packed to the end of the container
+
+							</p>
+							<p class=" align">
+								<span class="green">center:</span>
+								lines packed to the center of container
+
+							</p>
+						</section>
+
+						<section>
+							<p class=" align">
+								<span class="green">space-between:</span>
+								lines evenly distributed, the first line is at start of container, last one - at the end
+							</p>
+
+							<p class=" align">
+								<span class="green">space-around:</span>
+								lines evenly distributed with equal space around each line
+							</p>
+
+							<p class=" align">
+								<span class="green">stretch:</span>
+								(default setting) line stretch to take up remaining space.
+							</p>
+
+					</section>
+
+
 					<section>
-						<p class=" align">
-							<span class="green">space-between:</span>
-							lines evenly distributed, the first line is at start of container, last one - at the end
+						align-content example
+						<p>
+							<a href="https://codepen.io/ArtTka/pen/MqBypy">CodePen Link</a>
 						</p>
-
-						<p class=" align">
-							<span class="green">space-around:</span>
-							lines evenly distributed with equal space around each line
-						</p>
-
-						<p class=" align">
-							<span class="green">stretch:</span>
-							(default setting) line stretch to take up remaining space.
-						</p>
+					</section>
 
 				</section>
 
 
-								<section>
-									align-content example
-									<p>
-										<a href="https://codepen.io/ArtTka/pen/MqBypy">CodePen Link</a>
-									</p>
-								</section>
+
 
 
 				<section>
@@ -781,131 +787,102 @@
 					<h4>
 						Properties for the children (flex items)
 					</h4>
+					<p>
+						Instead of setting rules for all items in flex container - you can apply some rules just for a few flex items only.
+					</p>
+					<ul>
+						<li>order</li>
+						<li>flex-grow</li>
+						<li>flex-shrink</li>
+						<li>flex-basis</li>
+						<li>flex</li>
+						<li>align-self</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>
+					</h4>
 					<p class=" align">
 
 						<span class="green">order:</span>
 						self-explanatory, by setting this rule you can change an order of items
 						default is 0.
-						 Before you can do it only with DOM manipulation via javascript or at server side.
-
-					</p>
-
-					<p class=" align">
-
-
-						<span class="green">flex-grow:</span>
-						important rule, because now you can be calm about amount of free space or size of flex items inside.
-						Great rule for different screen sizes.
-
-					</p>
-
-				</section>
-				<section>
-				<p class="align">Flex grow 	Save a lot of time for Frontend Developers that use it.
-					define ability to grow(if necessary) works as proportion. Number of this rule dictates what amount of
-					the available space inside the flex container the item should take up.
-					it all items have flex-grow = 1, all remaining space will be distributed equally to all children.
-					if one item has value 2 -> remaining space would take up twice(increased 2x) as others
-</p>
-			</section>
-			<section>
-				order example
-				<p>
-					<a href="https://codepen.io/ArtTka/pen/ZMjWpW">
-						CodePen link
-				</a>
-			</p>
-			</section>
-
-
-			</section>
-
-
-				<section>
-					<h4>
-						!!!!!!!!!!!!!!!!!! Hello There
-					</h4>
-					<p class=" align">
-
-						<span class="green">flex-shrink:</span>
-						define an ability for a item to shrink if it necessary. negative numbers invalid.
-
-					</p>
-
-
-
-
-
-					111111111111111111
-					<p class=" align">
-
-						<span class="green">flex-basis:</span>
-						define default size of an element before the remaining space is distributed.
-						can be a lenght or keyword.
-
-					</p>
-					<p class=" align">
-						<span class="green">auto:</span>
-						auto term means (looks only at width or height property)
-					</p>
-
-
-
-					<p class=" align">
-						<span class="green">content:</span>
-						keyword means (size based on content) but content is not 100% supported well
-					</p>
-
-
 
 
 					</p>
+					<p> Before you can do it only with DOM manipulation via javascript or at server side.</p>
 				</section>
 
-
-
 				<section>
-
-										<p>
-
-											Before flexboxes you should add classes to blocks, with css rules that will handle this logic.
-											But now it's simple.
-
-											Only positive numbers.
-
-
-
-											if set 0 - extra space not counting
-											if set auto - extra space will be distributed based on 'flex-grow' value
-
-
-
-
-											<p class=" align">
-
-												<span class="green">flex:</span>
-												this css rule is a short version
-
-												first section is equal to `flex-grow`,
-												second equal to `flex-shrink`
-												third equal to `flex-basis`
-
-												second, third is optional.
-												default setting is `0 auto 1;`
-
-												better to use this property. because it make code clear.
-											</p>
-										</section>
-
-				<section>
-					flex-grow example
+					order example
 					<p>
-						<a href="https://codepen.io/ArtTka/pen/vzaGXr">
+						<a href="https://codepen.io/ArtTka/pen/ZMjWpW">
 							CodePen link
 					</a>
 				</p>
 				</section>
 
+
+				<section>
+
+					<h4>
+						flex-grow
+					</h4>
+
+					<p class=" align">
+
+
+						<!-- <span class="green">flex-grow:</span> -->
+						important rule, because now you can be calm about amount of free space or size of flex items inside.
+						Great rule for different screen sizes.
+
+					</p>
+					<p class="align">
+						Define ability to grow(if necessary) works as proportion. Number of this rule dictates what amount of
+						the available space inside the flex container the item should take up.
+					</p>
+				</section>
+				<section>
+
+				<p class="align">
+					If all items have flex-grow = 1, all remaining space will be distributed equally to all children.
+
+				</p>
+				<p class="align">
+					If one item has value 2 -> remaining space would take up twice(increased 2x) as others
+				</p>
+				<p class="align">
+					Saves a lot of time for Frontend Developers that use it.
+				</p>
+			</section>
+
+			<section>
+				flex-grow example
+				<p>
+					<a href="https://codepen.io/ArtTka/pen/vzaGXr">
+						CodePen link
+				</a>
+			</p>
+			</section>
+
+			</section>
+
+
+			<section>
+				<section>
+					<h4>
+						flex-shrink
+					</h4>
+					<p class=" align">
+
+						<!-- <span class="green">flex-shrink:</span> -->
+						Define an ability for a item to shrink if it necessary. negative numbers invalid.
+
+					</p>
+
+					<img data-src="img/flex-shrink.png" style="width:80%;" />
+				</section>
 				<section>
 					flex-shrink example
 					<p>
@@ -914,6 +891,98 @@
 					</a>
 				</p>
 				</section>
+		</section>
+<section>
+
+				<section>
+					 <h4>
+						flex-basis
+					</h4>
+
+					<p class=" align">
+
+						<!-- <span class="green">flex-basis:</span> -->
+						Define default size of an element before the remaining space is distributed.
+						can be a lenght or keyword.
+
+					</p>
+
+					<p class=" align">
+						<span class="green">"length"</span>
+						pek pek pek
+					</p>
+
+					<p class=" align">
+						<span class="green">auto:</span>
+						auto term means (looks only at width or height property)
+					</p>
+
+
+
+
+
+				</section>
+				<section>
+
+
+					<p class=" align">
+						<span class="green">content:</span>
+						keyword means (size based on content) but content is not 100% supported well
+					</p>
+
+
+					<p>
+
+						Before flexboxes you should add classes to blocks, with css rules that will handle this logic.
+						But now it's simple.
+
+						Only positive numbers.
+					</p>
+
+					<p>
+						if set 0 - extra space not counting
+						if set auto - extra space will be distributed based on 'flex-grow' value
+
+					</p>
+
+				</section>
+			</section>
+
+
+
+
+
+				<section>
+
+					<h4>
+						flex
+					</h4>
+					<p class=" align">
+
+						<!-- <span class="green">flex:</span> -->
+						this css rule is a short version
+
+						first section is equal to  <span class="green">`flex-grow`</span>
+					</p>
+
+				<p class=" align">
+						second equal to  <span class="green">`flex-shrink`</span></p>
+				<p class=" align">
+						third equal to  <span class="green">`flex-basis`</span>
+				</p>
+				<p class=" align">
+						second, third values is optional.
+				</p>
+				<p class=" align">
+						default setting is <span class="green">`0 auto 1;` </span>
+
+						better to use this property. because it make code clear.
+					</p>
+			</section>
+
+
+
+
 
 				 <section>
 
