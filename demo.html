@@ -812,6 +812,16 @@
 					<p> Before you can do it only with DOM manipulation via javascript or at server side.</p>
 				</section>
 				<section>
+					order example
+					<p>
+						<a href="https://codepen.io/ArtTka/pen/ZMjWpW">
+							CodePen link
+					</a>
+				</p>
+				</section>
+
+
+				<section>
 					<p class=" align">
 
 
@@ -838,22 +848,16 @@
 					Saves a lot of time for Frontend Developers that use it.
 				</p>
 			</section>
+
+
+
+			</section>
+
+
 			<section>
-				order example
-				<p>
-					<a href="https://codepen.io/ArtTka/pen/ZMjWpW">
-						CodePen link
-				</a>
-			</p>
-			</section>
-
-
-			</section>
-
-
 				<section>
 					<h4>
-						flexbox items rules
+						flex-shrink
 					</h4>
 					<p class=" align">
 
@@ -863,6 +867,19 @@
 					</p>
 
 					<img data-src="img/flex-shrink.png" style="width:80%;" />
+				</section>
+				<section>
+					<!-- <h4>
+						flex-shrink
+					</h4>
+					<p class=" align">
+
+						<span class="green">flex-shrink:</span>
+						Define an ability for a item to shrink if it necessary. negative numbers invalid.
+
+					</p>
+
+					<img data-src="img/flex-shrink.png" style="width:80%;" /> -->
 
 
 
@@ -887,45 +904,46 @@
 					</p>
 
 
+					<p>
 
+						Before flexboxes you should add classes to blocks, with css rules that will handle this logic.
+						But now it's simple.
+
+						Only positive numbers.
+					</p>
+
+					<p>
+						if set 0 - extra space not counting
+						if set auto - extra space will be distributed based on 'flex-grow' value
 
 					</p>
+
+
 				</section>
+			</section>
+
+
 
 
 
 				<section>
 
-										<p>
+										
+					<p class=" align">
 
-											Before flexboxes you should add classes to blocks, with css rules that will handle this logic.
-											But now it's simple.
+						<span class="green">flex:</span>
+						this css rule is a short version
 
-											Only positive numbers.
+						first section is equal to `flex-grow`,
+						second equal to `flex-shrink`
+						third equal to `flex-basis`
 
+						second, third is optional.
+						default setting is `0 auto 1;`
 
-
-											if set 0 - extra space not counting
-											if set auto - extra space will be distributed based on 'flex-grow' value
-
-
-
-
-											<p class=" align">
-
-												<span class="green">flex:</span>
-												this css rule is a short version
-
-												first section is equal to `flex-grow`,
-												second equal to `flex-shrink`
-												third equal to `flex-basis`
-
-												second, third is optional.
-												default setting is `0 auto 1;`
-
-												better to use this property. because it make code clear.
-											</p>
-										</section>
+						better to use this property. because it make code clear.
+					</p>
+				</section>
 
 				<section>
 					flex-grow example
