@@ -86,24 +86,33 @@ I can live with it https://www.useloom.com/share/db0321f2539b4e198110a9dd369825b
 
 
 <!-- !-- practice flex grow -->
-https://www.useloom.com/share/6ba79032de7b466896da0bd73569a99b
+<!-- https://www.useloom.com/share/6ba79032de7b466896da0bd73569a99b -->
 
 
 
 
 
-flex shrink
-https://www.useloom.com/share/2acad3a86b224b81b307f2c92737bc10
+<!-- flex shrink -->
+<!-- https://www.useloom.com/share/2acad3a86b224b81b307f2c92737bc10 -->
 
 
-Flex Shrink example - nice
-https://www.useloom.com/share/794dffcc563e411b8c46df556f6a58b4
+<!-- Flex Shrink example - nice
+https://www.useloom.com/share/794dffcc563e411b8c46df556f6a58b4 -->
+shrink
+fine https://www.useloom.com/share/960e410f9ef14f29a1e93468f4e77d5c
+
+
+
+
 
 
 Holy Grail - bad in the end (FLEX)
-https://www.useloom.com/share/167dfe14dce4415fb5fcea4c8e8b2cbf
-again - last minute is bad: https://www.useloom.com/share/739c72f3d3544a248bde1374c1a6d8b1
+<!-- https://www.useloom.com/share/167dfe14dce4415fb5fcea4c8e8b2cbf
+again - last minute is bad: https://www.useloom.com/share/739c72f3d3544a248bde1374c1a6d8b1 -->
+
 https://codepen.io/ArtTka/pen/jQNqbb?editors=1100
+https://www.useloom.com/share/4ac1e6f65e8345b18a4d928075fcdf54
+https://www.useloom.com/share/385d00f82dee4919a8e6fad135eaf4e3
 
 
 
