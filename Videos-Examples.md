@@ -15,8 +15,8 @@ https://www.useloom.com/share/8341df9f7ac742afabaae592ad62235e
 
 
 flex-wrap
-https://www.useloom.com/share/70cf2963070344ce81dcc62aa653efce
-
+<!-- https://www.useloom.com/share/70cf2963070344ce81dcc62aa653efce -->
+https://www.useloom.com/share/0a011a770d784e8098cc16178be07107
 
 
 
@@ -64,9 +64,6 @@ Child
 
 Order rule
 <!-- it's OK: https://www.useloom.com/share/ddbfd010daac4a4884476c724162f5f8 -->
-
-
-
 It's OK: https://www.useloom.com/share/d496b4d9ced04afcb8d199b053424f51
 
 
@@ -75,17 +72,12 @@ Flex Grow Example
 
 <!-- https://www.useloom.com/share/0f5787d3d22648359cb86a15bb6afc77
 https://www.useloom.com/share/fbed0d8646604b758c6475ecf7d34d77 -->
-
-
 I can live with it https://www.useloom.com/share/db0321f2539b4e198110a9dd369825b4
 
 
 
 <!-- !-- practice flex grow -->
 <!-- https://www.useloom.com/share/6ba79032de7b466896da0bd73569a99b -->
-
-
-
 
 
 <!-- flex shrink -->
