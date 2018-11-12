@@ -5,13 +5,13 @@ Examples. Practice.
 Display
 
 Display flex
-COOL: https://www.useloom.com/share/f465fb7ff4734ef08e89f2cf8dbe1843
-
+<!-- COOL: https://www.useloom.com/share/f465fb7ff4734ef08e89f2cf8dbe1843 -->
+https://www.useloom.com/share/12a5995b6dd24af4847e6fa0f864bc7f
 
 
 flex-directions
-Cool https://www.useloom.com/share/faa44a627a284903a1cef60d41a30b84
-
+<!-- Cool https://www.useloom.com/share/faa44a627a284903a1cef60d41a30b84 -->
+https://www.useloom.com/share/8341df9f7ac742afabaae592ad62235e
 
 
 flex-wrap
