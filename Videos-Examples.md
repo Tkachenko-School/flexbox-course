@@ -26,30 +26,26 @@ flex-flow
 
 justify-content
 practice - justify
-https://www.useloom.com/share/f5f1462666b74b46ad05d108a23d617e
+<!-- https://www.useloom.com/share/f5f1462666b74b46ad05d108a23d617e -->
 
 
+<!-- https://www.useloom.com/share/caf32d9429b14e098479e4d60495507c -->
+https://www.useloom.com/share/9ddab9eeea834365bce6a712b1edb757
 
-justify-content
-https://www.useloom.com/share/caf32d9429b14e098479e4d60495507c
-
-
-justify-content 1
-https://www.useloom.com/share/1b5e6602d2fd4526b4f0370e0e4abc78
-
+<!-- https://www.useloom.com/share/1b5e6602d2fd4526b4f0370e0e4abc78 -->
+https://www.useloom.com/share/f65acaf9ca044950a66ed47155e174a3
 
 
 FLEX1 Example 1 - justify content
-https://www.useloom.com/share/02949dcfe48e41d780a73cb2f6c9810a
-
-
-
+<!-- https://www.useloom.com/share/02949dcfe48e41d780a73cb2f6c9810a -->
+https://www.useloom.com/share/3f559290c18144b5be2e3ab554c3b102
 
 Header 2 - Justify content
-https://codepen.io/ArtTka/pen/mQbVNQ?editors=1100
+<!-- https://codepen.io/ArtTka/pen/mQbVNQ?editors=1100
 https://www.useloom.com/share/bc44b25cc8cd48be8c21a8ad25b683ff
 
-FAILED
+FAILED -->
+https://www.useloom.com/share/c8c2cf335a0941748cc9d1c27785c376
 
 ----
 
@@ -110,13 +106,18 @@ Holy Grail - bad in the end (FLEX)
 <!-- https://www.useloom.com/share/167dfe14dce4415fb5fcea4c8e8b2cbf
 again - last minute is bad: https://www.useloom.com/share/739c72f3d3544a248bde1374c1a6d8b1 -->
 
-https://codepen.io/ArtTka/pen/jQNqbb?editors=1100
+<!-- https://codepen.io/ArtTka/pen/jQNqbb?editors=1100
 https://www.useloom.com/share/4ac1e6f65e8345b18a4d928075fcdf54
-https://www.useloom.com/share/385d00f82dee4919a8e6fad135eaf4e3
+https://www.useloom.com/share/385d00f82dee4919a8e6fad135eaf4e3 -->
+
+
+https://www.useloom.com/share/c47f2590b3204c05aae47241cb4cfdca
+
 
 
 
 MAYBE PUT THIS AT ORDER.CHECK LATER.
 Flexbox example 2 => combo - align-content, order
 failed in the end
-https://www.useloom.com/share/6163664a363045ce927b51038e408c28
+<!-- https://www.useloom.com/share/6163664a363045ce927b51038e408c28 -->
+https://www.useloom.com/share/dbe4fb4ef1df43be9d2e8a9c5a60946c
