@@ -21,22 +21,24 @@ https://www.useloom.com/share/887a3e4f2dde466ea7313b671bb3df5e
 Parent1. Display, flex-direction, flex-wrap, flex-flow
 https://www.useloom.com/share/3624e9c5e8bc4db7a609569938a542b2
 
-<!-- parent 1 -->
+Parent2. justify, items
+https://www.useloom.com/share/5599e3910c214f7185a8e038065c3266
 
-<!-- https://www.useloom.com/share/180f3bd041564c0d97e197d5ecfc5f37 -->
-
-<!-- parent 1 -->
-<!-- https://www.useloom.com/share/4f4d777eb272406296fae5811dade922 -->
-
+fine, but redo if i have passion(not so bad)
+Parent2. content
+https://www.useloom.com/share/fa7f087d75fb4c3a84ebae0ba087bb0c
 
 
+Child1. Order, flex-grow
+https://www.useloom.com/share/ae67bb01823e4aff808e74671462bfd7
+
+Child2.
+
+=====================
 
 parent2
 https://www.useloom.com/share/b27e9bfc4fb64a57947a0a1d408e70fd
 
-
-<!-- Parent 1
-https://www.useloom.com/share/d308dd17eadc47599a568315ceddf1ec -->
 
 Parent 2
 https://www.useloom.com/share/3ad31c012af34194a768859cf5c7c529
@@ -50,7 +52,7 @@ https://www.useloom.com/share/3ad31c012af34194a768859cf5c7c529
 
 
 
-
+==================
 
 
 Support
