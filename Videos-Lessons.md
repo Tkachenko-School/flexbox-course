@@ -32,8 +32,12 @@ https://www.useloom.com/share/fa7f087d75fb4c3a84ebae0ba087bb0c
 Child1. Order, flex-grow
 https://www.useloom.com/share/ae67bb01823e4aff808e74671462bfd7
 
-Child2.
+Child2. shirnk + basis. (some words not good, but it's 87% fine)
+https://www.useloom.com/share/919a2b4d0ff048c0a39aada569d589ef
 
+
+Child3 flex and  align-self
+https://www.useloom.com/share/015bd9faeb134c34b67aed5b2e6e086c
 =====================
 
 parent2
