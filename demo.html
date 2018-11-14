@@ -269,9 +269,7 @@
 
 
 				<section>
-					<!-- <h4>
-						display
-					</h4> -->
+
 
 					<section>
 						<p>
@@ -295,21 +293,11 @@
 
 					</section>
 
-					<!-- #9 -->
-					<!-- <section>
-						<p >
-							<span class="green">flex-directions:</span>
-							 defines how inside are appeared. Good and easy for manipulation. it'll manipulate main-axis.
-						</p>
-						<p class="fragment align">
-							<span class="green">row:</span>
-							display items left to right
-						</p>
-					</section> -->
+
 					<section>
 						<h4>flex-directions</h4>
 						<p class="align">
-							<!-- <span class="green"></span> -->
+
 							 defines how inside items will appear. Good and easy for manipulation. it'll manipulate main-axis.
 						</p>
 						<p class="align">
@@ -363,10 +351,6 @@
 						</a>
 						</p>
 					</section>
-
-
-
-
 
 
 				</section>
@@ -478,25 +462,11 @@
 				</h4>
 
 				<p class=" align">
-					<!-- <span class="green">flex-flow:</span> -->
 					(direction or wrap)
 					it's a short version of 2 style rules, it's save time and equal \ default settings equal to
 					<span class="green">`flex-direction` row</span> & <span class="green">`flex-wrap` nowrap</span>
 				</p>
 			</section>
-			<!-- <section>
-				<h4>
-					flex-flow
-				</h4>
-
-				<p class="fragment align">
-					<span class="green">flex-flow:</span>
-					(direction or wrap)
-					it's a short version of 2 style rules, it's save time and equal \ default settings equal to
-					`flex-div` row & `flex-wrap` nowrap
-				</p>
-			</section> -->
-
 
 
 
@@ -527,7 +497,6 @@
 
 
 
-
 				<section>
 
 					<p class=" align">
@@ -546,23 +515,7 @@
 					</p>
 				</section>
 
-				<!-- <section>
 
-					<p class="fragment align">
-						<span class="green">flex-start:</span>
-						items are packed toward the start line
-					</p>
-
-					<p class="fragment align">
-						<span class="green">flex-end:</span>
-						items are packed toward the end line
-					</p>
-
-					<p class="fragment align">
-						<span class="green">center:</span>
-						items centered along the line
-					</p>
-				</section> -->
 
 								<section>
 
@@ -589,8 +542,8 @@
 								</section>
 								<section>
 
-							 <!-- <pre><code class="hljs">&lt;section data-background="justify.png"&gt;</code></pre> -->
-	<img data-src="img/justify.png" style="width:80%;" />
+
+							 		<img data-src="img/justify.png" style="width:80%;" />
 								</section>
 
 								<section>
@@ -602,89 +555,78 @@
 </section>
 
 
+	<section>
+		<section>
+			<h4>
+				align-items
+			</h4>
+			<p>
+				Defines default behavior for how flex items are laid out along the cross-axis.
+
+				If justify-content change logic of displaying flexbox items for the Main Axis, align-items do the same for Cross Axis.
+
+				Before flex module was this logic released, it can be done only by jQuery plugins.
+			</p>
+
+					<ul>
+						<li>flex-start</li>
+						<li>flex-end</li>
+						<li>center</li>
+						<li>baseline</li>
+						<li>stretch</li>
+					</ul>
+				</p>
+
+		</section>
+		<section>
+			<p class=" align">
+				<span class="green">flex-start:</span>
+				cross-start margin edge is placed on the cross-start line
+			</p>
+
+			<p class=" align">
+				<span class="green">flex-end:</span>
+				cross-end margin edge of the items, placed on the cross-end line
+			</p>
+
+			<p class=" align">
+				<span class="green">center:</span>
+				items centered in the cross-axis
+			</p>
+		</section>
+		<section>
+
+				<p class=" align">
+					<span class="green">baseline:</span>
+					items are aligned such as their baseline
+
+				</p>
+
+				<p class=" align">
+
+					<span class="green">stretch:</span>
+					it's a default settings stretched to fill the container (still respect min-width/max-width)
+
+				</p>
+
+		</section>
+
+			<section>
+
+			<img data-src="img/align-items-illustration.png" style="width:80%;" />
+			</section>
+
+			<section>
+				align-items example
+				<p>
+					<a href="https://codepen.io/ArtTka/pen/jvpqBO">CodePen Link</a>
+				</p>
+			</section>
+	</section>
 
 
 
-				<section>
-					<h4>
-						align-items
-					</h4>
-					<p>
-						Defines default behavior for how flex items are laid out along the cross-axis.
 
-						If justify-content change logic of displaying flexbox items for the Main Axis, align-items do the same for Cross Axis.
-
-						Before flex module was this logic released, it can be done only by jQuery plugins.
-					</p>
-
-							<ul>
-							  <li>flex-start</li>
-							  <li>flex-end</li>
-							  <li>center</li>
-							  <li>baseline</li>
-								<li>stretch</li>
-							</ul>
-						</p>
-
-				</section>
-				<section>
-
-				<!-- <pre><code class="hljs">&lt;section data-background="justify.png"&gt;</code></pre> -->
-				<img data-src="img/flex-align-items.png" style="width:80%;" />
-				</section>
-				<section>
-
-				<!-- <pre><code class="hljs">&lt;section data-background="justify.png"&gt;</code></pre> -->
-				<img data-src="img/flex-align-items.png" style="width:80%;" />
-				</section>	<section>
-
-					<!-- <pre><code class="hljs">&lt;section data-background="justify.png"&gt;</code></pre> -->
-					<img data-src="img/flex-align-items.png" style="width:80%;" />
-					</section>
-
-				<section>
-					<p class=" align">
-						<span class="green">flex-start:</span>
-						cross-start margin edge is placed on the cross-start line
-					</p>
-
-					<p class=" align">
-						<span class="green">flex-end:</span>
-						cross-end margin edge of the items, placed on the cross-end line
-					</p>
-
-					<p class=" align">
-						<span class="green">center:</span>
-						items centered in the cross-axis
-					</p>
-				</section>
-
-
-				<section>
-
-						<p class=" align">
-							<span class="green">baseline:</span>
-							items are aligned such as their baseline
-
-						</p>
-
-						<p class=" align">
-
-							<span class="green">stretch:</span>
-							it's a default settings stretched to fill the container (still respect min-width/max-width)
-
-						</p>
-
-				</section>
-
-
-
-				<section>
-					align-items example
-					<p>
-						<a href="https://codepen.io/ArtTka/pen/jvpqBO">CodePen Link</a>
-					</p>
-				</section>
 
 				<section>
 
@@ -750,7 +692,10 @@
 							</p>
 
 					</section>
+					<section>
 
+					<img data-src="img/align-content-illustration.png" style="width:80%;" />
+					</section>
 
 					<section>
 						align-content example
