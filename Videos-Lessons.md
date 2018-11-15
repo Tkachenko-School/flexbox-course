@@ -39,13 +39,13 @@ https://www.useloom.com/share/919a2b4d0ff048c0a39aada569d589ef
 Child3 flex and  align-self
 https://www.useloom.com/share/015bd9faeb134c34b67aed5b2e6e086c
 =====================
-
+<!-- 
 parent2
 https://www.useloom.com/share/b27e9bfc4fb64a57947a0a1d408e70fd
 
 
 Parent 2
-https://www.useloom.com/share/3ad31c012af34194a768859cf5c7c529
+https://www.useloom.com/share/3ad31c012af34194a768859cf5c7c529 -->
 
 
 
