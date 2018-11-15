@@ -65,7 +65,8 @@ https://www.useloom.com/share/dbe4fb4ef1df43be9d2e8a9c5a60946c
 
 
 Ex.Flex Grow Example
-I can live with it https://www.useloom.com/share/db0321f2539b4e198110a9dd369825b4
+I can live with it
+https://www.useloom.com/share/db0321f2539b4e198110a9dd369825b4
 
 
 Child2. shirnk + basis. (some words not good, but it's 87% fine)
@@ -83,8 +84,6 @@ https://www.useloom.com/share/015bd9faeb134c34b67aed5b2e6e086c
 
 Holy Grail - bad in the end (FLEX)
 https://www.useloom.com/share/c47f2590b3204c05aae47241cb4cfdca
-
-
 
 
 ---
