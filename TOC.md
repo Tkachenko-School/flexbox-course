@@ -1,5 +1,5 @@
 1) Intro to flexboxes. Flexbox Axis
-2) Parent Properties. display, flex-direction, ...
+2) Parent Properties. display, flex-direction, flex-wrap, flex-flow
 3) Practice lesson. display:flex
 4) Practice lesson. flex-direction
 5) Practice lesson. flex-wrap
@@ -13,7 +13,7 @@
 13) Practice lesson. order Part1
 14) Practice lesson. order Part 2
 15) Practice lesson. flex-grow
-16) Properties for children. flex-shring, flex-...
+16) Properties for children. flex-shring, flex-basis
 17) Practice lesson. flex-shrink
 18) Properties for children. flex, align-self
 19) Practice lesson. Holy Grail layout
@@ -30,13 +30,13 @@ You'll never want to create an HTML page without flexboxes after this course.
 
 We'll learn only basic things. Specification mostly.
 
-All CSS properties related to flexboxes. 
+All CSS properties related to flexboxes.
 And we'll have a set of easy practical lessons.
 For each practice lesson, I advise you to recreate an example from scratch(no copy-paste) by your hands.
 
 
-Be aware, that this course touching only flexbox basics, so you need to know HTML and CSS. 
-Check this course for HTML/CSS basics: https://www.skillshare.com/classes/The-Ultimate-HTML-Developer/1975500338
+Be aware, that this course touching only flexbox basics, so you need to know HTML and CSS.
+Check other courses for HTML/CSS basics then
 
 
 
@@ -75,7 +75,7 @@ https://github.com/pandao/prefixes.scss/blob/master/src/flexbox.scss (Sass sampl
 ---
 
 
-Your project is to create a page with recipe cards. Nothing complex, but you need to use flexboxes. Don't use CSS grids or Bootstrap. 
+Your project is to create a page with recipe cards. Nothing complex, but you need to use flexboxes. Don't use CSS grids or Bootstrap.
 
 It should have a Header, Footer, Navigation(linked to recipe cards at content).With three or more blocks-cards with details about your favorite dishes.
 
@@ -83,7 +83,7 @@ You can use a plain CSS or SASS.
 
 As a code style and "best practice" example you can use SMACSS https://smacss.com/
 
-BUT you restricted to use BEM approach(it's good if you don't know what I'm talking about). 
+BUT you restricted to use BEM approach(it's good if you don't know what I'm talking about).
 
 Be cool with your code, use comments, if you want to create easy to understand code structure.
 
@@ -135,7 +135,7 @@ I propose you to create a plan, split things into small chunks and move forward 
 I'll be happy if you do not just complete this project, but go forward and make it better. So take time, generate ideas and experiment. If you want to learn how to code == you should code as much as possible. You can polish this project, while you'll like the code quality.
 
 
-Please don't worry, if something wouldn't be easy to understand at the first time. Share your process with other students in our Project Directory.  It's much easy to solve problems together! 
+Please don't worry, if something wouldn't be easy to understand at the first time. Share your process with other students in our Project Directory.  It's much easy to solve problems together!
 
 
 
@@ -178,4 +178,3 @@ https://unravelingflexbox.com/
 https://www.oreilly.com/library/view/flexbox-in-css/9781491981474/(O'Reilly books always best)
 
 https://www.smashingmagazine.com/2016/02/the-flexbox-reading-list/
-
