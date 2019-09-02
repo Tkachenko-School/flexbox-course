@@ -75,11 +75,13 @@ https://github.com/pandao/prefixes.scss/blob/master/src/flexbox.scss (Sass sampl
 ---
 
 
-Your project is to create a page with recipe cards. Nothing complex, but you need to use flexboxes. Don't use CSS grids or Bootstrap.
+Your project will be to create a page with recipe cards. Nothing complex, but you need to use flexboxes. Don't use CSS grids or Bootstrap.
 
 It should have a Header, Footer, Navigation(linked to recipe cards at content).With three or more blocks-cards with details about your favorite dishes.
 
-You can use a plain CSS or SASS.
+You can use plain CSS or SASS.
+
+
 
 As a code style and "best practice" example you can use SMACSS https://smacss.com/
 
@@ -90,14 +92,14 @@ Be cool with your code, use comments, if you want to create easy to understand c
 
 Data
 
-Check this image samples
+You can use examples for some inspiration: 
 
+- https://raw.githubusercontent.com/ChickenKyiv/flexbox-course/master/faf57faa.png
 
-![xxx]()
-![xxx]()
+- https://raw.githubusercontent.com/ChickenKyiv/flexbox-course/master/fa875018.png
 
+If you need actual data for your blocks, you can check it at the plugin, that we've built: https://github.com/GroceriStar/static-data-plain/blob/master/data/clean/Recipe/Recipe4/recipe-short-version.json
 
-If you need actual data for your blocks, you can check it at the plugin, that we've built: https://github.com/GroceriStar/static-data-plain/blob/master/data/clean/Recipe/Recipe4/recipe-short-version.json
 
 the main structure of the recipe is(but not limited too)
 
@@ -126,10 +128,9 @@ recipe
 
 
 
+
 You can start to work on your project before finishing the whole course.
-I propose you to create a plan, split things into small chunks and move forward by closing this small tasks.
-
-
+I propose you to create a plan, split things into small chunks and move forward by closing these small tasks.
 
 
 
