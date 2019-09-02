@@ -13,7 +13,7 @@
 13) Practice lesson. order Part1
 14) Practice lesson. order Part 2
 15) Practice lesson. flex-grow
-16) Properties for children. flex-shring, flex-basis
+16) Properties for children. flex-shrink, flex-basis
 17) Practice lesson. flex-shrink
 18) Properties for children. flex, align-self
 19) Practice lesson. Holy Grail layout
