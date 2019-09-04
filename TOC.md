@@ -186,3 +186,17 @@ https://unravelingflexbox.com/
 https://www.oreilly.com/library/view/flexbox-in-css/9781491981474/(O'Reilly books always best)
 
 https://www.smashingmagazine.com/2016/02/the-flexbox-reading-list/
+
+
+#### Welcome
+
+I'm glad that you decide to learn how to use flexboxes.
+I know that a lot of developers, that working with HTML markup, usually don't use flexboxes.
+This makes me upset. This is why I decide to create this course. Hope you'll like it.
+I also adore that we have not just a specification, but also practice lessons, that will help you to get used to flexboxes.
+
+#### Closing
+
+Congratulations! I'm happy that you finished this course.
+Hope you'll start to create flexboxes for your markup pretty soon.
+Good luck and thank you for choosing my course. Feel free to create a review for it
