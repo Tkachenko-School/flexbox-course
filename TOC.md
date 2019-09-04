@@ -81,7 +81,7 @@ https://github.com/pandao/prefixes.scss/blob/master/src/flexbox.scss (Sass sampl
 ---
 
 
-Your project will be to create a page with recipe cards. Nothing complex, but you need to use flexboxes. Don't use CSS grids or Bootstrap.
+Your class project(when you complete the course) will be to create a page with recipe cards. Nothing complex, but you need to use flexboxes. Don't use CSS grids or Bootstrap.
 
 It should have a Header, Footer, Navigation(linked to recipe cards at content).With three or more blocks-cards with details about your favorite dishes.
 
