@@ -1,3 +1,6 @@
+## Introduction, Parent Properties
+#### Understand flexbox basics and understand how to setup flexbox container
+
 1) Intro to flexboxes. Flexbox Axis
 2) Parent Properties. display, flex-direction, flex-wrap, flex-flow
 3) Practice lesson. display:flex
@@ -9,6 +12,9 @@
 9) Practice lesson. justify-content Part3
 10) Practice lesson. justify-content Part4
 11) Parent properties. align-content
+
+## Properties for children
+#### Create CSS rules, related to flex items
 12) Properties for children. order, flex-grow
 13) Practice lesson. order Part1
 14) Practice lesson. order Part 2
